@@ -35,3 +35,19 @@ a {
     font-family: Verdana;
     font-size: 21px;
   }
+
+  .container img,
+  .container video {
+    max-width: 100%;
+    height: auto;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .discover {
+      font-size: 40px;
+    }
+
+    .guide {
+      font-size: 30px;
+    }
+  }
